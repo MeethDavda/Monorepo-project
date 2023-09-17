@@ -1,10 +1,10 @@
-import { Button, Header } from "ui";
+import { Header, Signup } from "ui";
 
 export default function Page(): JSX.Element {
   return (
     <>
       <Header text="Web" />
-      <Button />
+      <Signup />
     </>
   );
 }
